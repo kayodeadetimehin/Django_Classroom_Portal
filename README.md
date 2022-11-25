@@ -1,3 +1,5 @@
 # Django_Blog 
 
-This is my django-project 
+
+
+### here is my first awesome django project 
