@@ -1,0 +1,13 @@
+
+
+
+
+
+<H2> Teacher Form</H2>
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Submit">
+</form>
+
+<a href="{% url 'classroom:home' %}">Click here to return to Homepage </a>
